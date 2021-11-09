@@ -51,7 +51,6 @@ def display_config():
     print('#    Lat360 (360 Image Reference-based Super-Resoluton using LatConv)    #')
     print('#                                 Pytorch                                #')
     print('#                   Heejae Kim, EwahWomans University                    #')
-
     print('##########################################################################')
     print('')
     print('-------------------------------YOUR SETTINGS------------------------------')
