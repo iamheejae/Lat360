@@ -7,6 +7,7 @@
   
 <hr style="border: solid 1px gray;">
 ## Directory Structure  
+  
 project
 │   README.md
 |   run_synthetic.sh - main script to train Lat360
