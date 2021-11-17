@@ -21,7 +21,8 @@ To install correlation package, please follow the instruction in [PWC-Net](https
   
 2. For LatConv, 
 You can download pre-computed indices for LatConv in [LatConv_Index]().
-Place the files in './models/Index'
+Place the files in './models/Index'.
+  
 We will provide the code for generating indices soon.
   
 ## Prepare dataset ###
