@@ -28,7 +28,7 @@ To install correlation package, please follow the instruction in [PWC-Net](https
 We used Synthetic360 dataset and Real360 dataset to train our model. 
 
 - Before generating datasets, randomly rotate ERP images for data augmentation. 
-  Please refer to (https://github.com/iamheejae/360-Image-XYZ-Axis-Rotation).
+  Please refer to our codes in (https://github.com/iamheejae/360-Image-XYZ-Axis-Rotation).
 
 - Run generate_traindataset.py & generate_valdataset.py to prepare dataset. 
   Each dataset is an hdf5 file, which contains '/HR_dataset' and '/LR_dataset'.
