@@ -1,6 +1,6 @@
 ### <center>Official PyTorch implementation of the paper "360 Image Reference-based Super-Resolution using Latitude Aware Convolution Learned from Synthetic to Real" ###
 
-### <center>Hee-Jae Kim, Je-Won Kang, Byung-Uk Lee ###
+# <center>Hee-Jae Kim, Je-Won Kang, Byung-Uk Lee #
 
 <center><img src="https://user-images.githubusercontent.com/42056469/141826157-30379a39-4bcd-4789-835c-5bfdcbc5fde4.png" vspace="25px"></center>
   
@@ -17,10 +17,10 @@
 
 ## Installation ###  
 1. We used correlation package from PWC-Net. 
-To install correlation package, please follow the instruction in (https://github.com/NVlabs/PWC-Net/tree/master/PyTorch)
+To install correlation package, please follow the instruction in [PWC-Net](https://github.com/NVlabs/PWC-Net/tree/master/PyTorch)
   
 2. For LatConv, 
-You can download pre-computed indices for LatConv in ().
+You can download pre-computed indices for LatConv in [LatConv_Index]().
 Place the files in './models/Index'
 We will provide the code for generating indices soon.
   
@@ -35,9 +35,13 @@ We used Synthetic360 dataset and Real360 dataset to train our model.
   
 ## How to train Lat360 ###
 - Train using Synthetic360 dataset, 
-  run train.sh
+  '''
+  ./train.sh
+  '''
   
 - Transfer Learning using Real360 dataset
-  run transfer_learning.sh
+  '''
+  ./transfer_learning.sh
+  '''
   
   
