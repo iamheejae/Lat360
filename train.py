@@ -14,7 +14,7 @@ sys.path.insert(0,'./models/')
 sys.path.insert(0,'./utils/')
 
 from ERPDataset_random import create_random_dataset
-from solver_DataParallel import Solver
+from solver import Solver
 from models import Lat360, transfer_Lat360
 import CustomLoss 
 
