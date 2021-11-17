@@ -35,13 +35,13 @@ We used Synthetic360 dataset and Real360 dataset to train our model.
   
 ## How to train Lat360 ###
 - Train using Synthetic360 dataset, 
-  '''
+  ```
   ./train.sh
-  '''
+  ```
   
 - Transfer Learning using Real360 dataset
-  '''
+  ```
   ./transfer_learning.sh
-  '''
+  ```
   
   
