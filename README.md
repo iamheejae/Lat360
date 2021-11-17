@@ -20,7 +20,7 @@
 To install correlation package, please follow the instruction in [PWC-Net](https://github.com/NVlabs/PWC-Net/tree/master/PyTorch)
   
 2. For LatConv, 
-- You can download pre-computed indices for LatConv in [LatConv_Index]().
+- You can download pre-computed indices for LatConv in [LatConv_Index](https://drive.google.com/file/d/1ahBSPm0QjcWcToalhzRWrSsK4xQZRben/view?usp=sharing).
 - Place the files in './models/Index'. 
 - We will also provide generation code soon.
   
