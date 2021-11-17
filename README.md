@@ -20,10 +20,10 @@
 To install correlation package, please follow the instruction in [PWC-Net](https://github.com/NVlabs/PWC-Net/tree/master/PyTorch)
   
 2. For LatConv, 
-You can download pre-computed indices for LatConv in [LatConv_Index]().
-Place the files in './models/Index'.
+  You can download pre-computed indices for LatConv in [LatConv_Index]().
+  Place the files in './models/Index'.
   
-We will provide the code for generating indices soon.
+  We will provide the code for generating indices soon.
   
 ## Prepare dataset ###
 We used Synthetic360 dataset and Real360 dataset to train our model. 
