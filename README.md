@@ -15,12 +15,29 @@
   - tqdm
   - tensorboardX
 
+## Installation ###  
+1. We used correlation package from PWC-Net. 
+To install correlation package, please follow the instruction in (https://github.com/NVlabs/PWC-Net/tree/master/PyTorch)
+  
+2. For LatConv, 
+You can download pre-computed indices for LatConv in ().
+Place the files in './models/Index'
+We will provide the code for generating indices soon.
+  
 ## Prepare dataset ###
 We used Synthetic360 dataset and Real360 dataset to train our model. 
 
-Prepare an hdf5 file, which contains '/HR_dataset' and '/LR_dataset'. 
+- Before generate dataset, randomly rotate ERP images for data augmentation. 
+  Please refer to (https://github.com/iamheejae/360-Image-XYZ-Axis-Rotation).
+
+- Run generate_traindataset.py & generate_valdataset.py to prepare dataset. 
+  Each dataset is an hdf5 file, which contains '/HR_dataset' and '/LR_dataset'.
   
 ## How to train Lat360 ###
-  - Train using Synthetic360 dataset
-  - Transfer Learning using Real360 dataset
+- Train using Synthetic360 dataset, 
+  run train.sh
+  
+- Transfer Learning using Real360 dataset
+  run transfer_learning.sh
+  
   
