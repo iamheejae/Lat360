@@ -34,12 +34,12 @@ We used Synthetic360 dataset and Real360 dataset to train our model.
   Each dataset is an hdf5 file, which contains '/HR_dataset' and '/LR_dataset'.
   
 ## How to train Lat360 ###
-- Train using Synthetic360 dataset, 
+- First, Train using Synthetic360 dataset
   ```
   ./train.sh
   ```
   
-- Transfer Learning using Real360 dataset
+- Then, Transfer Learning using Real360 dataset
   ```
   ./transfer_learning.sh
   ```
