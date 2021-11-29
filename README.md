@@ -40,10 +40,12 @@ We used Synthetic360 dataset and Real360 dataset to train our model.
   ```
   ./train.sh
   ```
-  
+
 - Then, transfer Learning using Real360 dataset
   ```
   ./transfer_learning.sh
   ```
   
+## Experimental Results ###
   
+<center><img src="https://user-images.githubusercontent.com/42056469/143803751-ce62b1ef-a5ce-4050-b9f5-5c72b9587826.PNG" vspace="25px"></center>
